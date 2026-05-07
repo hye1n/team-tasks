@@ -40,16 +40,32 @@ export type Database = {
           {
             foreignKeyName: "comments_task_id_fkey"
             columns: ["task_id"]
+            isOneToOne: false
             referencedRelation: "tasks"
             referencedColumns: ["id"]
           },
-          {
-            foreignKeyName: "comments_created_by_fkey"
-            columns: ["created_by"]
-            referencedRelation: "users"
-            referencedColumns: ["id"]
-          }
         ]
+      }
+      tags: {
+        Row: {
+          created_at: string
+          created_by: string | null
+          id: string
+          name: string
+        }
+        Insert: {
+          created_at?: string
+          created_by?: string | null
+          id?: string
+          name: string
+        }
+        Update: {
+          created_at?: string
+          created_by?: string | null
+          id?: string
+          name?: string
+        }
+        Relationships: []
       }
       tasks: {
         Row: {

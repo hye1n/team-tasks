@@ -30,7 +30,19 @@
       "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\User\\\\team-tasks\" -Recurse -Directory)",
       "Bash(Select-Object -ExpandProperty FullName)",
       "Bash(cat)",
-      "Read(//tmp/**)"
+      "Read(//tmp/**)",
+      "Bash(Remove-Item *)",
+      "Skill(scaffold-crud)",
+      "Bash(npm i *)",
+      "Bash(npm test *)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_fill_form",
+      "mcp__plugin_playwright_playwright__browser_click",
+      "Bash(npx playwright *)",
+      "Skill(plugin-dev:create-plugin)",
+      "Bash(gh repo *)",
+      "Skill(git-commit)"
     ]
   }
 }
