@@ -1,7 +1,36 @@
 {
   "permissions": {
     "allow": [
-      "Bash(winget install *)"
+      "Bash(winget install *)",
+      "Bash(npx tsc *)",
+      "mcp__plugin_supabase_supabase__list_projects",
+      "mcp__plugin_supabase_supabase__get_project_url",
+      "mcp__plugin_supabase_supabase__apply_migration",
+      "mcp__plugin_supabase_supabase__generate_typescript_types",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "WebFetch(domain:supabase.com)",
+      "mcp__plugin_supabase_supabase__list_tables",
+      "Bash(git add *)",
+      "Bash(node *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(git rm *)",
+      "Bash(taskkill *)",
+      "Bash(cmd *)",
+      "Bash(powershell *)",
+      "Bash(vercel *)",
+      "PowerShell(vercel ls *)",
+      "PowerShell(& \"C:\\\\Users\\\\User\\\\AppData\\\\Roaming\\\\npm\\\\vercel.cmd\" ls 2>&1)",
+      "PowerShell($env:VERCEL_TOKEN; Get-ChildItem \"C:\\\\Users\\\\User\\\\AppData\\\\Roaming\\\\npm\\\\node_modules\" -Filter \"vercel\" -ErrorAction SilentlyContinue | Select-Object Name)",
+      "mcp__plugin_vercel_vercel__list_teams",
+      "mcp__plugin_vercel_vercel__list_projects",
+      "mcp__plugin_vercel_vercel__get_project",
+      "PowerShell(Get-Content *)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\User\\\\team-tasks\" -Recurse -Directory)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(cat)",
+      "Read(//tmp/**)"
     ]
   }
 }
